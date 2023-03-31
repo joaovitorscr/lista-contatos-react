@@ -1,5 +1,13 @@
+import ListaContatos from './Containers/ListaContatos'
+import GlobalStyle, { Container } from './Styles/index'
+
 function App() {
-  return <div>Oi</div>
+  return (
+    <Container>
+      <GlobalStyle />
+      <ListaContatos />
+    </Container>
+  )
 }
 
 export default App
