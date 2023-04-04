@@ -36,9 +36,10 @@ const Formulario = () => {
         <input
           type="text"
           name="nome"
-          placeholder="Nome completo"
+          placeholder="Como ele vai se chamar"
           value={nome}
           onChange={({ target }) => setNome(target.value)}
+          maxLength={24}
         />
         <label htmlFor="email">E-mail:</label>{' '}
         <input
@@ -47,6 +48,7 @@ const Formulario = () => {
           placeholder="nome@email.com"
           value={email}
           onChange={({ target }) => setEmail(target.value)}
+          maxLength={24}
         />
         <label htmlFor="telefone">Telefone:</label>{' '}
         <input
@@ -55,6 +57,7 @@ const Formulario = () => {
           placeholder="(00) 00000-0000"
           value={telefone}
           onChange={({ target }) => setTelefone(target.value)}
+          maxLength={11}
         />
         <Botao type="submit">Cadastrar</Botao>
       </Form>

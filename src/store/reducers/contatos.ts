@@ -12,7 +12,7 @@ const initialState: ContatosState = {
       id: 1,
       nome: 'João Vitor',
       email: 'joaovitor@gmail.com',
-      telefone: '43996209612'
+      telefone: '43000000000'
     },
     {
       id: 2,
