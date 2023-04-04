@@ -25,12 +25,6 @@ const initialState: ContatosState = {
       nome: 'Cleiton',
       email: 'cleiton@gmail.com',
       telefone: '43888888888'
-    },
-    {
-      id: 4,
-      nome: 'Alexander',
-      email: 'alexander@gmail.com',
-      telefone: '43777777777'
     }
   ]
 }

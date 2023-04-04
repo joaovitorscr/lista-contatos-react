@@ -18,6 +18,7 @@ export const Form = styled.form`
 
     ::placeholder {
       color: ${variaveis.textColor};
+      font-size: 12px;
     }
   }
 
